@@ -2,9 +2,13 @@
 
 **Intelligent Social Media Content Pipeline -- From Ideation to Scheduled Publishing in One Click**
 
+## 📋 Quick Summary
+
+> 🤖 **AI Content Scheduler** 是一套端到端的 AI 社群內容自動化工廠，專為社群媒體經營者打造。只需輸入主題、語氣與目標受眾，系統便能透過 🧠 GPT-4o-mini 自動產生文案、標籤與長文，並利用 🎨 GPT-Image-1 生成貼圖風格視覺素材，再經由 🎬 FFmpeg 將靜態圖片轉製成 Instagram Reels 短影片（1080x1920）。所有素材統一上傳至 ☁️ Firebase Cloud Storage，最終一鍵透過 📱 Instagram Graph API 直接發佈貼文或 Reels。技術架構採用 ⚡ Next.js 15 + React 19 + Turbopack，搭配 🔐 iron-session 管理 Instagram OAuth 驗證流程，並以 ✅ Zod 4 嚴格驗證所有 API 輸入。這不是排程工具，而是一條從「靈感💡」到「發佈📤」的完整 AI 內容產線，將原本需要數小時的多工具切換流程壓縮為一次點擊，大幅提升社群內容的產出效率與品質一致性 🚀。
+
 ---
 
-## Why This Exists
+## 🤔 Why This Exists
 
 Social media managers spend hours every day on a repetitive loop: brainstorm a topic, write copy, design a visual, format for the platform, schedule, publish. Each step involves a different tool. Most of that work is mechanical, not creative.
 
@@ -14,7 +18,7 @@ This is not a scheduling tool. It is an end-to-end content factory powered by AI
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 User Input (Topic / Tone / Audience / Language)
@@ -50,7 +54,7 @@ User Input (Topic / Tone / Audience / Language)
           (Post or Reel Publish)
 ```
 
-### Core Modules
+### 🧩 Core Modules
 
 | Module | Path | Purpose |
 |--------|------|---------|
@@ -63,7 +67,7 @@ User Input (Topic / Tone / Audience / Language)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -80,7 +84,7 @@ User Input (Topic / Tone / Audience / Language)
 
 ---
 
-## Quick Start
+## 🏁 Quick Start
 
 ```bash
 # Clone and install
@@ -98,7 +102,7 @@ npm run dev
 
 Open `http://localhost:3000`, enter a topic, and click generate. The AI produces a complete Instagram content package -- sticker, caption, hashtags, article, and Reel video -- ready for one-click publishing.
 
-### Available Commands
+### ⚙️ Available Commands
 
 ```bash
 npm run dev       # Start dev server with Turbopack
@@ -110,6 +114,6 @@ npm run format    # Biome auto-format
 
 ---
 
-## Author
+## 👤 Author
 
 **Huang Akai (Kai)** -- Founder @ Universal FAW Labs | Creative Technologist | Ex-Ogilvy | 15+ years in digital creative and marketing technology.
