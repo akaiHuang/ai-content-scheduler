@@ -6,6 +6,10 @@
 
 AI Content Scheduler 是一套端到端的 AI 社群內容自動化管線，將主題發想、文案與視覺生成、素材打包到 Instagram 發佈整合成單一工作流程。適合社群經營者與行銷團隊用來縮短內容製作週期，並維持跨貼文/短影音的一致品質。
 
+## About (EN)
+
+AI Content Scheduler is an end-to-end AI social content pipeline that turns one prompt into captions, visuals, and short-form video assets, then publishes directly to Instagram. It is designed for creators and marketing teams that need faster production cycles with consistent cross-post quality.
+
 ## 📋 Quick Summary
 
 > 🤖 **AI Content Scheduler** 是一套端到端的 AI 社群內容自動化工廠，專為社群媒體經營者打造。只需輸入主題、語氣與目標受眾，系統便能透過 🧠 GPT-4o-mini 自動產生文案、標籤與長文，並利用 🎨 GPT-Image-1 生成貼圖風格視覺素材，再經由 🎬 FFmpeg 將靜態圖片轉製成 Instagram Reels 短影片（1080x1920）。所有素材統一上傳至 ☁️ Firebase Cloud Storage，最終一鍵透過 📱 Instagram Graph API 直接發佈貼文或 Reels。技術架構採用 ⚡ Next.js 15 + React 19 + Turbopack，搭配 🔐 iron-session 管理 Instagram OAuth 驗證流程，並以 ✅ Zod 4 嚴格驗證所有 API 輸入。這不是排程工具，而是一條從「靈感💡」到「發佈📤」的完整 AI 內容產線，將原本需要數小時的多工具切換流程壓縮為一次點擊，大幅提升社群內容的產出效率與品質一致性 🚀。
